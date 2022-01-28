@@ -1,0 +1,60 @@
+* {
+  user-select: none;
+}
+
+.inlined-box {
+  display: inline-block;
+}
+
+.input-box {
+  max-width: 250px;
+}
+
+.select-box {
+  max-width: 150px;
+}
+
+.action-box {
+  width: 100px;
+}
+
+.todo-item {
+  padding: 10px 15px 10px 15px;
+  width: 100%;
+  min-height: 30px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  transition: all 250ms;
+  box-sizing: border-box;
+}
+
+.todo-item:hover {
+  box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+  transform: scale(1.01);
+}
+
+.todo-container {
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  min-height: 50vh;
+  padding: 50px;
+}
+
+.warning {
+  background-color: rgb(255, 221, 157);
+}
+.info {
+  background-color: lightcyan;
+}
+.error {
+  background-color: rgb(255, 128, 128);
+}
+.success {
+  background-color: lightgreen;
+}
+
+.delete-btn {
+  color: red;
+  float: right;
+}
+.delete-btn:hover {
+  transform: scale(1.5);
+}
